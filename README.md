@@ -31,6 +31,21 @@ Describe how your project benefits the LoopBack developer.
 
 ## Demo or sample code
 
+### datasources.json example setup
+
+```
+"dynamodb": {
+    "host": "",
+    "port": 8000,
+    "region": "ap-northeast-1",
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "maxRetries": 0,
+    "logLevel": "debug",
+    "tableNamePrefix": "Production_"
+}
+```
+
 In progress (Please give me some time to write examples)
 
 Give a short demo of how the project works.
